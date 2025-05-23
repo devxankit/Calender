@@ -4,6 +4,7 @@ import tailwindcssPlugin from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/Calender/', 
   plugins: [
     react(),
     tailwindcssPlugin()
